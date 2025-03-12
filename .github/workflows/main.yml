@@ -5,7 +5,7 @@ name: Build & Deploy Spring app
 on:
   push:
     branches:
-      - main
+      - master
 #each pipeline has jobs.
 jobs:
   build-deploy:
